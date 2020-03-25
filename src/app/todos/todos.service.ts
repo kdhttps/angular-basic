@@ -8,7 +8,7 @@ import {Todo} from './todos.interface';
   providedIn: 'root'
 })
 export class TodosService {
-  endpoint = '/todo';
+  endpoint = '/todos';
 
   constructor(private http: HttpClient) {
   }
